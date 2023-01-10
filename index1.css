@@ -1,0 +1,29 @@
+*{
+    font-family: arial,sans-serif;
+}
+body {
+    background: #fff;
+    color: #202124;
+}
+nav.google {
+    /*display: flex;*/
+    min-width: 1121px;
+    z-index: 128;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    margin-top: 6px;
+}
+div.seearch {
+    display: flex;
+    justify-content: space-between;
+}
+.gLFyf {
+    background: #fff;
+    height: 69px;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+    width: 50%;
+    border-radius: 16px;
+}

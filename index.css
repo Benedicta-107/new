@@ -1,0 +1,483 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+}
+.head {
+    border: 1px sold gray;
+    border-color: black;
+}
+.google {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+/*form {
+    margin-left: 150px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: left;
+}*/
+form {
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+input.search {
+    border-radius: 5px;
+    width: 400px;
+    height: 2.4rem;
+    
+}
+div.putin {
+    position: absolute;
+    left: 550px;
+    top: 25px;
+}
+.abcd {
+    height: 44px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 24px;
+    margin: 0 auto;
+}
+/*nav {
+    border:  1px solid white;
+    border-color: rgb(210, 227, 242);
+}*/
+div.setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 25px;
+}
+div.setting h3 {
+    border-radius: 50%;
+    background-color: rgb(220, 41, 71);
+    width: 20px;
+    color: #fff;
+    text-align: center;
+}
+div.setting i, a, h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.menu a {
+    width: 100%;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    word-spacing: 10px;
+    justify-content: space-between;
+}
+.menu icon {
+    margin-left: 5rem;
+    font-size: 20px;
+    gap: 10px;
+}
+.menu .tools {
+    margin: 50px;
+}
+
+.icon1 {
+    color: lightblue;
+}
+span.text {
+    color: lightblue;
+    gap: 10px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  /*@media (min-width: 576px) 
+  {
+   div.card {width: 100%;}
+    
+  }*/
+  .container {
+    padding: 2px 16px;
+  }
+  div.card {
+    position: relative;
+    
+  }
+  div.card .img2 {
+    position: absolute;
+    left: 265px;
+  }
+  div.card .img3 {
+    position: absolute;
+    left: 265px;
+    top: 200px;
+  }
+  div.container a {
+    text-decoration: none;
+    color: #000;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 60%;
+    
+  }
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  div.card2 {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+  }
+  div.card2 a {
+    text-decoration: none;
+    color: #000;
+    word-wrap: break-word;
+    white-space: wrap;
+    line-height: 1.5rem;
+  }
+  div.card2 i {
+    
+    color: #f81d62;
+    
+  }
+  div.c-ronaldo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 0.5px;
+  }
+  div.c-ronaldo h4, p {
+    margin: 5px;
+    padding: 5px;
+  }
+  div.onsv {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  div.onsv button {
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    color: dodgerblue;
+    padding: 10px;
+    margin: 5px;
+  }
+  div.onsv button.ovw {
+    border: 2px solid dodgerblue;
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    height: 60%;
+    
+  }
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  div.card3 {
+    position: absolute;
+    left: 820px;
+    top: 200px;
+  }
+  h2, h3 {
+    text-decoration: none;
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    padding: 5px;
+  }
+ /* div.top-stories {
+    display: flex;
+  }
+  div.side span {
+    justify-content: left;
+    align-items: flex-start;
+  }
+  div.top-side {
+    display: flex;
+    flex-wrap: nowrap;
+    float: left;
+  }
+  div.top-side img {
+    margin-left: 40px;
+  }
+div.top-side a, span {
+  margin-right: 30px;
+}*/
+div.top-stories {
+  position: relative;
+}
+div.side {
+  position: absolute;
+
+}
+
+div.top-side {
+  position: absolute;
+  left: 300px;
+  top: -19px;
+  
+}
+div.top-side h2 {
+  color: red;
+  font-weight: bold;
+  text-shadow: 2px;
+}
+div.top-side2 {
+  position: absolute;
+  left: 600px;
+  top: -19px;
+}
+div.top-side2 p {
+  color: lightgreen;
+}
+div.top-side2 a {
+ margin-top: 200px;
+}
+div.wiki {
+  position: absolute;
+  bottom: -570px;
+  
+}
+div.wiki img {
+  position: absolute;
+  left: 550px;
+  bottom: -2px;
+}
+div.paa {
+  position: absolute;
+  bottom: -720px;
+}
+div.write {
+  position: absolute;
+  bottom: -810px;
+}
+div.write img {
+  position: absolute;
+  left: 500px;
+  bottom: -9px;
+}
+div.about-side {
+  position: absolute;
+  top: 200px;
+  width: 200px;
+  height: 20vh;
+  z-index: 2;
+  left: 1100px;
+  @media (min-width:400px) {
+    width: 50%;
+    left: 10%;
+  }
+}
+div.about i {
+  color: blue;
+
+}
+div.about {
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  display: flex;
+}
+div.claim {
+  display: flex;
+  border: 1px solid lightcyan;
+  width: 100px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+div.profile {
+  position: absolute;
+  top: 1100px;
+  width: 200px;
+  height: 20vh;
+  z-index: 2;
+  left: 950px;
+}
+div.profile-icons {
+  display: flex;
+  justify-content: space-between;
+}
+div.video-section {
+  position: absolute;
+  top: 1450px;
+  left: 20px;
+}
+div.videos {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10px;
+  margin: 10px;
+  padding: 10px;
+  justify-items: center;
+
+  @media (min-width:400) {
+    flex-wrap: wrap
+  }
+}
+
+div.video1 {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  /*display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  line-break: anywhere;*/
+}
+div.video1 img {
+  width: 150px;
+  height: 100px;
+}
+
+div.video2, video3 {
+  border-bottom: 1px solid gray;
+}
+div.video3 {
+  border-bottom: 1px solid gray;
+}
+div.span {
+  border: 2px solid lightcyan;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+div.span p {
+ padding: 5px;
+ margin-left: 250px;
+}
+div.related-searches {
+  position: absolute;
+  top: 2130px;
+  left: 20px;
+}
+div.related-searches h3{
+  border-bottom: 1px solid gray;
+}
+div.strikers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.photos {
+  display: flex;
+}
+div.see-more {
+  padding: 1px;
+  margin-left: 2px;
+  border: 1px solid lightcyan;
+  border-radius: 50px;
+}
+div.see-more h5 {
+  margin-left: 300px;
+}
+div.wit {
+  border-top:1px solid gray ;
+}
+div.wit a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 600px;
+}
+li {
+  list-style: none;
+  /*color: #303030;*/
+}
+.lists a {
+  color: #303030;
+  text-decoration: none;
+
+}
+div.the-list {
+  position: absolute;
+  top: 2500px;
+  left: 20px;
+}
+div.lists {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding-left: 200px;
+  padding-bottom: 40px;
+  /*position: relative;*/
+  margin: auto;
+  gap: 1px;
+}
+.lists1 {
+  border: 1px solid lightcyan;
+  border-radius: 50px;
+  background-color: lightgray;
+  margin-top: 5px;
+}
+.lists2 {
+  border: 1px solid lightcyan;
+  border-radius: 50px;
+  background-color: lightgray;
+  margin-top: 5px;
+}
+.lists3 {
+  border: 1px solid lightcyan;
+  border-radius: 50px;
+  background-color: lightgray;
+  margin-top: 5px;
+}
+.lists4, .lists5 {
+  border: 1px solid lightcyan;
+  border-radius: 50px;
+  background-color: lightgray;
+  margin-top: 5px;
+}
+div.texts {
+  display: flex;
+  padding-left: 200px;
+  padding-bottom: 40px;
+  /*position: relative;*/
+  margin: auto;
+ 
+}
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+div.texts i {
+  color: blue;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+div.numbers {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+a.change {
+  text-decoration: none;
+  color: #000;
+}
+a.nexti {
+  margin-left: 50px;
+}
